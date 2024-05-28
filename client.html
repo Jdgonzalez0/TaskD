@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>TaskDude</title>
+</head>
+  <body>
+    <nav class="nav">
+          <div class="container">
+              <div class="logo">
+                  <a href="index.html">TaskDude</a>
+              </div>  
+              <div id="mainListDiv" class="main_list">
+                  <ul class="navlinks">
+                      <li><a href="about.html">Acerca de</a></li>
+                      <li><a href="product.html">Productos</a></li>
+                      <li><a href="provider.html">Proveedores</a></li>
+                      <li><a href="client.html">Clientes</a></li>
+                      <li><a href="contact.html">¿Quienes Somos?</a></li>
+                  </ul>
+              </div>
+          </div>
+    </nav>
+
+      <section class="homeClient">
+      </section>
+      <div style="height: 100%">
+
+        <h2 class="myH2">¡Únete!</h2>
+        <p class="myP">En TaskDude la satisfacción de nuestros clientes es nuestra prioridad. Nos enorgullece recibir comentarios positivos que reflejan nuestro compromiso con la calidad y el servicio excepcional. Aquí compartimos algunas de las experiencias de nuestros valiosos clientes:</p>
+        <p class="myP">Sofía M.</p>
+        <p class="myP">"Estoy encantada con mi nuevo reloj de TaskDude. La atención al cliente fue increíble y me ayudaron a elegir el reloj perfecto para mi boda. La calidad es insuperable y el diseño es simplemente hermoso. ¡Definitivamente volveré a comprar aquí!"</p>
+        <p class="myP">Carlos R.</p>     
+        <p class="myP">"Soy un amante de los deportes y necesitaba un reloj resistente y funcional. TaskDude tenía una gran selección de relojes deportivos y el personal me ayudó a encontrar uno que cumple con todas mis necesidades. El proceso de compra fue fácil y el envío fue rápido. Estoy muy satisfecho con mi compra."</p>
+        <p class="myP">En TaskDude, valoramos la confianza que nuestros clientes depositan en nosotros y nos esforzamos por superar sus expectativas en cada compra. Si estás buscando el reloj perfecto, ven y descubre por qué nuestros clientes confían en nosotros para todas sus necesidades de relojería. ¡Únete a nuestra comunidad de clientes satisfechos y experimenta la diferencia TaskDude hoy mismo!</p>
+        </div>
+        
+        <footer>
+            <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+        </footer>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="js/scripts.js"></script>
+
+
+      <script>
+          $(window).scroll(function() {
+              if ($(document).scrollTop() > 50) {
+                  $('.nav').addClass('affix');
+                  console.log("OK");
+              } else {
+                  $('.nav').removeClass('affix');
+              }
+          });
+      </script>
+  </body>
+</html>
