@@ -35,7 +35,7 @@ body {
 }
 
 .nav div.logo a:hover {
-    color: #00E676;
+    color: #e65c00;
 }
 
 .nav div.main_list {
@@ -67,7 +67,7 @@ body {
 }
 
 .nav div.main_list ul li a:hover {
-    color: #00E676;
+    color: #e65c00;
 }
 
 
@@ -117,6 +117,14 @@ body {
   width: 100%;
   height: 100vh;
   background-image: url("./resources/SobreNosotros.png");
+  background-position: center top;
+  background-size:cover;
+}
+
+.homeQuienes{
+  width: 100%;
+  height: 100vh;
+  background-image: url("./resources/quienes.png");
   background-position: center top;
   background-size:cover;
 }
@@ -378,7 +386,7 @@ body {
 
 .affix {
     padding: 0;
-    background-color: #24292E;
+    background-color: #2768a6;
 }
 
 
@@ -396,6 +404,7 @@ ul{
 .myH2 {
 	text-align:center;
 	font-size: 4rem;
+  color:#2768a6;
 }
 
 
@@ -412,7 +421,7 @@ ul{
 }
 
 footer {
-  background-color: #333;
+  background-color: #2768a6;
   color: #fff;
   text-align: center;
   padding: 1rem 0;
